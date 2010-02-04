@@ -1,0 +1,18 @@
+weave-python Readme
+===================
+
+This is a standalone client for the Weave server API implemented in Python.
+
+It supports most of the User API and the read portions of the Sync API,
+and has full support for decrypting encrypted browser object data.  Encryption
+is not currently implemented.
+
+It depends on the M2Crypto module, which is currently hosted at:
+	http://chandlerproject.org/Projects/MeTooCrypto
+
+Discussion and documentation for Weave is found at the Mozilla Wiki:
+
+    http://wiki.mozilla.org/Labs/Weave
+
+You'll also find information there on how to join Weave mailing lists,
+file bugs for Weave, and so forth.
